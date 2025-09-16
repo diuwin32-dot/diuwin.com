@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #a1a4ad8a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  width: 350px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Top Header Gradient */
+.header-bar {
+  background: linear-gradient(90deg, #06C167, #06C167);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  color: white;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.back-arrow {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.header-logo {
+  width: 200px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.flag {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+}
+
+.lang {
+  font-size: 14px;
+}
+
+/* Title below gradient */
+.header-text {
+  background: linear-gradient(90deg, #0db760, #08d1a3);
+  text-align: left;
+  padding: 10px 15px;
+  color: white;
+}
+
+.header-text h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header-text p {
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+/* Inputs */
+.input-group {
+  margin: 15px 20px;
+  text-align: left;
+}
+
+.input-group label {
+  font-size: 14px;
+  color: #444;
+}
+
+.phone-input {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.phone-input select,
+.phone-input input,
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.phone-input select {
+  width: 30%;
+}
+
+.phone-input input {
+  width: 70%;
+}
+
+/* Checkbox */
+.checkbox {
+  margin: 15px 20px;
+  text-align: left;
+  font-size: 13px;
+  color: #444;
+}
+
+.privacy {
+  color: red;
+}
+
+/* Buttons */
+.btn {
+  width: 90%;
+  padding: 12px;
+  background: linear-gradient(to right, #00c853, #00e676); /* same green gradient */
+  color: #fff;
+  border: none;
+  border-radius: 25px; /* more rounded like screenshot */
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 15px auto;
+  display: block;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 200, 83, 0.3); /* soft glow */
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transform: scale(1.02); /* slight zoom effect */
+}
+
+.switch {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.switch a {
+  color: #00c853;
+  text-decoration: none;
+}
